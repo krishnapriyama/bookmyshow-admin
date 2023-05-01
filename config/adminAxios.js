@@ -1,6 +1,6 @@
 import axios from "axios";
 const token = localStorage.getItem('adminToken')
-const baseURL= "http://localhost:4000"
+const baseURL= "www.krishnapriya.online"
 const instance = axios.create({
   baseURL,
   
