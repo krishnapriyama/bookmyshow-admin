@@ -39,7 +39,7 @@ const viewgenre_language = () => {
       })
          .then((willDelete) => {
             if (willDelete) {
-               fetch(`http://localhost:4000/admin/deletegenre/${id}`, {
+               fetch(`https://krishnapriya.online/admin/deletegenre/${id}`, {
                   method: 'DELETE',
                   headers: {
                      'Content-Type': 'application/json',
@@ -71,7 +71,7 @@ const viewgenre_language = () => {
       })
          .then((willDelete) => {
             if (willDelete) {
-               fetch(`http://localhost:4000/admin/deletelanguage/${id}`, {
+               fetch(`https://krishnapriya.online/admin/deletelanguage/${id}`, {
                   method: 'DELETE',
                   headers: {
                      'Content-Type': 'application/json',

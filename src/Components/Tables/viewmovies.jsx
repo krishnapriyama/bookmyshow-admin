@@ -22,7 +22,7 @@ const viewmovies = () => {
   }, [length, allMovies])
 
   const handleDelete = (id) => {
-    fetch(`http://localhost:4000/admin/deleteMovie/${id}`, {
+    fetch(`https://krishnapriya.online/admin/deleteMovie/${id}`, {
       method: 'DELETE',
       headers: {
         'Content-Type': 'application/json',

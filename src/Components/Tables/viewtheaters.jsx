@@ -14,7 +14,7 @@ const ViewTheaters = () => {
   const itemsPerPage = 5
 
   useEffect(() => {
-    fetch('http://localhost:4000/admin/view-theaters')
+    fetch('https://krishnapriya.online/admin/view-theaters')
       .then((response) => response.json())
       .then((data) => {
         SetLength(data.length)

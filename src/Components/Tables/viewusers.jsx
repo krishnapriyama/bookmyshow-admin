@@ -32,7 +32,7 @@ const[editedvalue,seteditedvalue] = useState()
     })
     .then((willDelete) => {
       if (willDelete) {
-        fetch(`http://localhost:4000/admin/deleteUser/${id}`, {
+        fetch(`https://krishnapriya.online/admin/deleteUser/${id}`, {
           method: 'DELETE',
           headers: {
             'Content-Type': 'application/json',
